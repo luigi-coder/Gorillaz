@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* Tipografia */
+@font-face {
+    font-family: "Gorillaz";
+    src: url("../tipografia/gorillaz_1.ttf");
+}
+
+
+body {
+    background-image: url("../images/fondo.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;   
+}
+
+header {
+    border-radius: 5px;
+    display: inline;
+}
+header .firstChild {
+    padding: 20px;
+    display: inline;
+} 
+
+header .slider {
+    height: 300px;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: "Gorillaz";
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(38, 36, 36, 0.2);
+    font-size: 10em;
+    margin-bottom: 20px;
+    color: rgb(215, 6, 6);
+}
+
+header .firstChild {
+    padding: 20px;
+    display: inline;
+}
+
+header .firstChild .nav {
+    position: sticky; 
+    top: 0; 
+    height: 50px;
+    padding: 0.5em;
+    background-color: rgb(215, 6, 6);
+    text-align: center;
+    width: 98%;
+    margin: 0 auto;
+    border-radius: 5px;
+    
+}
+header .firstChild .nav div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+    /* Discografias */
+    
+
+}
+header .firstChild .nav ul {
+    list-style-type: none;
+}
+
+header .firstChild .nav ul a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Bebas Neue";
+
+}
+header .firstChild .nav ul li {
+    display: inline;
+    margin: 0 3em;
+    font-size: 2em;
+    font-family: "Gorillaz";
+    list-style: none;
+}
+
+main .container {
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 5px;
+    color: #000;
+    font-weight: 700;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main .container article {
+    padding: 2em;
+    line-height: 1.6;
+}
+
+
+/* Seccion discografia */
+.discografia {
+    background-color: rgb(255, 255, 255, 0.6);
+    padding: 20px;
+    margin-top: 5px;
+    color: #000;
+    font-weight: 700;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.discografia .contenedor {
+  margin: 0 auto;
+}
+
+.discografia .contenedor div img {
+    width: 50%;
+    border-radius: 5px;
+}
+
+.discografia .contenedor div img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/* Footer */
+
+
+footer .contenedor {
+    background-color: rgb(215, 6, 6);
+    padding: 20px;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 700;
+    width: 95%;
+    text-align: center;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    
+}
+
+footer .contenedor p {
+    font-size: 1.2em;
+    font-family: "Bebas Neue";
+}
+p .G {
+    font-family: "Gorillaz";
+    font-size: 1.5em;
+    margin-right: 0.3em;
+}
+
+footer .contenedor .sociales a {
+    color: #000;
+    margin: 1em;
+    font-size: 2em;
+
+}
